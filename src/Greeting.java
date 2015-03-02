@@ -19,7 +19,7 @@ public class Greeting {
 		Date d = new Date();
 		
 		if(d.getHours()>6 && d.getHours()<12)
-			System.out.println("good morning "+name+"!");
+			System.out.println("Good Morning "+name+"!");
 		else if(d.getHours()>12 && d.getHours()<16)
 			System.out.println("good afternoon "+name+"!");
 		else
